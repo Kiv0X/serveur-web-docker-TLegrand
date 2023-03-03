@@ -1,2 +1,1 @@
-flask
-
+apt install python3-flask
