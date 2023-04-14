@@ -31,4 +31,4 @@ jobs:
       with:
         context: front
         push: true
-        tags: ${{ env.REGISTRY }}/${{ env.ACTOR }}/${{ env.IMAGE_NAME }}-front:1.0.0
+        tags: ${{ env.REGISTRY.toLowerCase() }}/${{ env.ACTOR }}/${{ env.IMAGE_NAME }}-front:1.0.0
