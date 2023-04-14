@@ -9,5 +9,8 @@ services:
   words:
     build: back
     image: sebkhedim/cloud-native-api:1.0.0
-    ports:
+    
+front: 
+  build: front 
+  ports:
     - "8080:8080"
