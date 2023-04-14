@@ -6,10 +6,5 @@ module myapp
 go 1.23
 
 require (
-io/ioutil
-log
-math/rand
-net
-net/http
-time
+github.com/gorilla/mux v1.8.0
 )
