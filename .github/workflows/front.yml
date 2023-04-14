@@ -6,7 +6,6 @@ on:
     paths:
       - 'front/**'
      
-
 jobs:
   build:
     runs-on: ubuntu-latest
