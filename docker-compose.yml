@@ -13,4 +13,4 @@ services:
   front: 
     build: front 
     ports:
-      - "8080:8080"
+      - "8080:80"
