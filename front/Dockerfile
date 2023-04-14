@@ -1,5 +1,5 @@
 FROM golang:alpine
-
+LABEL key="value"
 WORKDIR /app
 
 COPY . .
