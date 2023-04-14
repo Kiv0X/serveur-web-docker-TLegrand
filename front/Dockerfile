@@ -9,4 +9,4 @@ EXPOSE 8000
 
 RUN go build -o app dispatcher.go
 
-CMD ["/app"]
+CMD ["/app/app"]
