@@ -1,8 +1,10 @@
-name: Docker build
+name: back build
 
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'back/**'
 
 jobs:
   build:
@@ -29,4 +31,4 @@ jobs:
       with:
         context: back
         push: true
-        tags: ${{ env.REGISTRY }}/${{ env.ACTOR }}/${{ env.IMAGE_NAME }}:1.0.0
+        tags: ${{ env.REGISTRY }}/${{ env.ACTOR }}/${{ env.IMAGE_NAME }}-front:1.0.0
