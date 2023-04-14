@@ -1,5 +1,5 @@
 FROM golang:alpine
-
+LABEL BG="theo"
 WORKDIR /app
 
 COPY . .
