@@ -3,7 +3,7 @@
 
 module myapp
 
-go 1.2.3
+go 1.23
 
 require (
 io/ioutil
